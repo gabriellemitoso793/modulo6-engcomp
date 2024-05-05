@@ -1,0 +1,58 @@
+# Projeto TurtleSim
+
+O objetivo deste projeto é proporcionar o aprendizado dos conceitos básicos do ROS (Robot Operating System). Os alunos foram introduzidos à interação com o ambiente de simulação do TurtleSim, onde puderam criar e controlar uma tartaruga virtual para desenhar padrões específicos na tela. Este projeto visa preparar os participantes para atividades futuras que envolvam o TurtleBot e aplicações robóticas mais avançadas no contexto do ROS.
+
+## Descrição do Projeto
+
+Este projeto utiliza o TurtleSim em ROS 2 para controlar uma tartaruga virtual e desenhar um coração na tela. Ao executar o script `ola_mundo`, a tartaruga irá realizar uma série de movimentos que resultarão no desenho.
+
+
+## Pré-requisitos
+
+Certifique-se de ter o ROS 2 instalado em seu sistema. Consulte a [documentação oficial do ROS 2](https://docs.ros.org/en/galactic/Installation.html) para instruções de instalação.
+
+## Instalação e Configuração
+
+1. **Clone o Repositório:**
+Primeiro é necesário clonar o repositório, para isso, acesse o terminal do seu computador e execute os seguintes comandos:
+
+   ```bash
+   git clone https://github.com/gabriellemitoso793/modulo6-engcomp.git
+   cd modulo6-engcomp
+   ```
+
+2. **Construa o Projeto:**
+Acesse a pasta 'src' no seu terminal e execute os seguintes comandos para construir o projeto:
+
+   ```bash
+    cd src
+    colcon build
+    source install/local_setup.bash
+   ```
+## Executando o TurtleSim
+
+1. **Inicie o TurtleSim:**
+No terminal que você construiu o projeto, execute o TurtleSim, a execução abrirá a interface gráfica do TurtleSim com uma tartaruga.
+
+    ```bash
+   ros2 run turtlesim turtlesim_node
+   ```
+
+2. **Construção de Projeto no novo terminal:**
+Em outro terminal, faça a construção do projeto:
+
+    ```bash
+    cd modulo6-engcomp/src
+    source install/local_setup.bash
+    ```
+
+3. **Execute o Script do Projeto:**
+No mesmo terminal, navegue até o diretório do projeto e execute o script responsável por enviar comandos para desenhar e manipular a tartaruga:
+
+    ```bash
+    cd modulo6-engcomp/src/ola_mundo
+    ros2 run ola_mundo ola
+    ```
+
+## Vídeo demonstrativo
+Veja em: [TurtleSim desenhando](https://drive.google.com/file/d/1OA0O8v7eTn14OTtNPbTNG2uNS0RDdtJJ/view?usp=sharing)
