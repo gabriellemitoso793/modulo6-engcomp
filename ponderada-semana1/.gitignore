@@ -1,3 +1,4 @@
+# Ignorar o diretório e seu conteúdo
 install/
 log/
 build/
