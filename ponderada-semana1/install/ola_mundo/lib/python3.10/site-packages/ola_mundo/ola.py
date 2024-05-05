@@ -10,121 +10,122 @@ class TurtleController(Node):
     def __init__(self):
         super().__init__('turtle_controller')
         self.publisher = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
-        self.create_client(Spawn, '/spawn')
-        self.create_client(Kill, '/kill')
-        self.create_client(SetPen, '/turtle1/set_pen')
 
     def move_turtle(self, linear, angular):
+        # Envia comandos de movimento para a tartaruga
         twist = Twist()
         twist.linear.x = linear
         twist.angular.z = angular
         self.publisher.publish(twist)
+        time.sleep(1)  # Pausa de 1 segundo entre os movimentos
 
-    def spawn_turtle(self):
-        # Solicitar o serviço de spawn para criar uma nova tartaruga
-        spawn_client = self.create_client(Spawn, '/spawn')
-        while not spawn_client.wait_for_service(timeout_sec=1.0):
-            self.get_logger().info('Serviço de spawn não está disponível. Tentando novamente...')
-        
-        request = Spawn.Request()
-        request.x = 5.0
-        request.y = 5.0
-        request.theta = 0.0
-        request.name = 'my_turtle'
-
-        future = spawn_client.call_async(request)
-        rclpy.spin_until_future_complete(self, future)
-
-        if future.result() is not None:
-            self.get_logger().info('Tartaruga spawnada com sucesso: %s', future.result().name)
-        else:
-            self.get_logger().info('Falha ao spawnar a tartaruga')
-
-    def kill_turtle(self):
-        # Solicitar o serviço de kill para remover a tartaruga
-        kill_client = self.create_client(Kill, '/kill')
-        while not kill_client.wait_for_service(timeout_sec=1.0):
-            self.get_logger().info('Serviço de kill não está disponível. Tentando novamente...')
-        
-        request = Kill.Request()
-        request.name = 'my_turtle'
-
-        future = kill_client.call_async(request)
-        rclpy.spin_until_future_complete(self, future)
-
-        if future.result() is not None:
-            self.get_logger().info('Tartaruga morta com sucesso')
-        else:
-            self.get_logger().info('Falha ao matar a tartaruga')
-
-def draw_pink_star(controller):
-    # Movimentos para desenhar uma estrela
+def draw_heart(controller):
+    # Movimentos para desenhar um coração
     movements = [
-        (0.0, 0.0),      # Iniciar
-        (1.0, 0.0),      # Primeira ponta
-        (-1.0, 0.0),     # Voltar ao centro
-        (0.0, 0.0),      # Parar
-        (0.0, 1.0),      # Segunda ponta
-        (0.0, -1.0),     # Voltar ao centro
-        (0.0, 0.0),      # Parar
-        (1.0, 1.0),      # Terceira ponta
-        (-1.0, -1.0),    # Voltar ao centro
-        (0.0, 0.0),      # Parar
-        (-1.0, 0.0),     # Quarta ponta
-        (1.0, 0.0),      # Voltar ao centro
-        (0.0, 0.0)       # Parar
+        (0.0, 0.0),                      # Iniciar (sem movimento)
+        (2.0, 0.0),                      # Avançar para a primeira parte do coração
+        (-2.0, 0.0),                     # Voltar ao centro (mover para trás)
+        (0.0, math.radians(135)),       # Virar para a direita (parte superior do coração)
+        (math.sqrt(2), math.sqrt(2)),    # Avançar em diagonal (parte superior do coração)
+        (0.0, -math.radians(135)),      # Virar para a esquerda (parte superior do coração)
+        (-math.sqrt(2), math.sqrt(2)),   # Voltar em diagonal (parte superior do coração)
+        (0.0, math.radians(90)),        # Virar para a direita (parte inferior do coração)
+        (1.0, 0.0),                     # Avançar para a base do coração
+        (0.0, 0.0)                      # Parar
     ]
 
+    # Executa os movimentos para desenhar o coração
     for linear, angular in movements:
         controller.move_turtle(linear, angular)
-        time.sleep(1) 
+
+def set_pen_color(controller, r, g, b):
+    # Configura a cor da caneta da tartaruga
+    set_pen_client = controller.create_client(SetPen, '/turtle1/set_pen')
+
+    while not set_pen_client.wait_for_service(timeout_sec=1.0):
+        print('Serviço SetPen não disponível, aguardando...')
+
+    request = SetPen.Request()
+    request.r = r
+    request.g = g
+    request.b = b
+    request.width = 5  # Largura da linha
+    request.off = 0    # Caneta ligada
+
+    future = set_pen_client.call_async(request)
+    rclpy.spin_until_future_complete(controller, future)
+
+    if future.result() is not None:
+        print('Cor da caneta configurada com sucesso!')
+    else:
+        print('Falha ao configurar a cor da caneta.')
+
+def spawn_turtle(controller):
+    # Cria uma nova tartaruga no Turtlesim
+    spawn_client = controller.create_client(Spawn, '/spawn')
+
+    while not spawn_client.wait_for_service(timeout_sec=1.0):
+        print('Serviço de spawn não disponível, aguardando...')
+
+    request = Spawn.Request()
+    request.x = 5.0
+    request.y = 5.0
+    request.theta = 0.0
+    request.name = 'my_turtle'
+
+    future = spawn_client.call_async(request)
+    rclpy.spin_until_future_complete(controller, future)
+
+    if future.result() is not None:
+        print('Nova tartaruga criada com sucesso:', future.result().name)
+    else:
+        print('Falha ao criar uma nova tartaruga.')
+
+def kill_turtle(controller):
+    # Mata a tartaruga criada anteriormente
+    kill_client = controller.create_client(Kill, '/kill')
+
+    while not kill_client.wait_for_service(timeout_sec=1.0):
+        print('Serviço de kill não disponível, aguardando...')
+
+    request = Kill.Request()
+    request.name = 'my_turtle'
+
+    future = kill_client.call_async(request)
+    rclpy.spin_until_future_complete(controller, future)
+
+    if future.result() is not None:
+        print('Tartaruga morta com sucesso.')
+    else:
+        print('Falha ao matar a tartaruga.')
 
 def main(args=None):
     rclpy.init(args=args)
     controller = TurtleController()
 
-    print("Desenhando uma estrela no Turtlesim...")
-    
-    # Configurar a cor da caneta para rosa (vermelho + azul)
-    set_pen_color(controller, 255, 0, 255)
-    
-    # Spawn da tartaruga
-    controller.spawn_turtle()
-    
-    # Desenhar a estrela rosa
-    draw_pink_star(controller)
-    
-    # Pausa para visualizar o desenho
+    print("Desenhando um coração no Turtlesim...")
+
+    # Configura a cor da caneta para rosa
+    set_pen_color(controller, 255, 192, 203)
+
+    # Desenha o coração
+    draw_heart(controller)
+
+    # Aguarda a conclusão dos movimentos do coração
+    time.sleep(10)  # Ajuste o tempo conforme necessário para o coração ser desenhado completamente
+
+    # Cria uma nova tartaruga no Turtlesim
+    spawn_turtle(controller)
+
+    # Aguarda um pouco antes de matar a tartaruga
     time.sleep(2)
-    
-    # Kill da tartaruga
-    controller.kill_turtle()
-    
-    # Encerrar a execução
+
+    # Mata a tartaruga recém-criada no Turtlesim
+    kill_turtle(controller)
+
     controller.destroy_node()
     rclpy.shutdown()
 
-def set_pen_color(controller, r, g, b):
-    # Configurar a cor da caneta
-    set_pen_client = controller.create_client(SetPen, '/turtle1/set_pen')
-
-    while not set_pen_client.wait_for_service(timeout_sec=1.0):
-        controller.get_logger().info('Serviço SetPen não está disponível. Tentando novamente...')
-    
-    request = SetPen.Request()
-    request.r = r
-    request.g = g
-    request.b = b
-    request.width = 5  
-    request.off = 0    
-    
-    future = set_pen_client.call_async(request)
-    rclpy.spin_until_future_complete(controller, future)
-
-    if future.result() is not None:
-        controller.get_logger().info('Cor da caneta configurada com sucesso')
-    else:
-        controller.get_logger().info('Falha ao configurar a cor da caneta')
-
 if __name__ == '__main__':
     main()
+
