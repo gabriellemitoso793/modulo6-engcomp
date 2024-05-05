@@ -1,0 +1,4 @@
+Invoking command in '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/build/turtlesim -- -j8 -l8
+Invoked command in '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/build/turtlesim -- -j8 -l8
+Invoking command in '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/build/turtlesim
+Invoked command in '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/build/turtlesim

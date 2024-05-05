@@ -1,0 +1,355 @@
+[0.009s] Invoking command in '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/build/turtlesim -- -j8 -l8
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c[0m
+[0.050s] [  1%] Built target turtlesim__cpp
+[0.054s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.061s] [ 11%] Built target ament_cmake_python_copy_turtlesim
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp[0m
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp[0m
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp[0m
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c[0m
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c[0m
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c[0m
+[0.081s] [ 21%] Built target turtlesim__rosidl_typesupport_c
+[0.084s] [ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.099s] [ 44%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.099s] [ 51%] Built target turtlesim__rosidl_typesupport_cpp
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target draw_square[0m
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target turtle_teleop_key[0m
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target mimic[0m
+[0.118s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_node[0m
+[0.125s] [ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.135s] [ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.143s] [ 73%] Built target draw_square
+[0.146s] [ 74%] [32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o[0m
+[0.155s] [ 76%] Built target mimic
+[0.163s] [ 76%] Built target turtlesim
+[0.172s] [ 82%] Built target turtlesim_node
+[0.189s] [ 83%] Built target turtlesim__py
+[0.205s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py[0m
+[0.233s] [ 92%] Built target turtlesim__rosidl_generator_py
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c__pyext[0m
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext[0m
+[0.265s] [ 96%] Built target turtlesim__rosidl_typesupport_c__pyext
+[0.265s] [ 96%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[0.282s] [ 98%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[0.330s] running egg_info
+[0.331s] writing turtlesim.egg-info/PKG-INFO
+[0.331s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[0.343s] writing top-level names to turtlesim.egg-info/top_level.txt
+[0.346s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.347s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.375s] [ 98%] Built target ament_cmake_python_build_turtlesim_egg
+[5.156s] [100%] [32m[1mLinking CXX executable turtle_teleop_key[0m
+[5.355s] [100%] Built target turtle_teleop_key
+[5.370s] Invoked command in '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/build/turtlesim -- -j8 -l8
+[5.524s] Invoking command in '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/build/turtlesim
+[5.530s] -- Install configuration: ""
+[5.530s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[5.530s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim
+[5.530s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action
+[5.530s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[5.530s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c
+[5.531s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h
+[5.531s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h
+[5.531s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h
+[5.531s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h
+[5.531s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg
+[5.531s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[5.531s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c
+[5.532s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h
+[5.532s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h
+[5.532s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c
+[5.532s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h
+[5.532s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h
+[5.532s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h
+[5.532s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h
+[5.532s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/color.h
+[5.532s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[5.532s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h
+[5.532s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv
+[5.533s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[5.533s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h
+[5.533s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h
+[5.533s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h
+[5.533s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c
+[5.533s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h
+[5.533s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c
+[5.533s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h
+[5.533s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h
+[5.533s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h
+[5.533s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h
+[5.533s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c
+[5.533s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h
+[5.533s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h
+[5.533s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h
+[5.533s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h
+[5.534s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h
+[5.534s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h
+[5.534s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c
+[5.534s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h
+[5.534s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c
+[5.534s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h
+[5.534s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h
+[5.534s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h
+[5.534s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h
+[5.534s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h
+[5.534s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/environment/library_path.sh
+[5.534s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/environment/library_path.dsv
+[5.534s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+[5.534s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim
+[5.534s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action
+[5.534s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[5.535s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[5.535s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg
+[5.535s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[5.535s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[5.535s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[5.535s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.535s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv
+[5.535s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[5.535s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[5.535s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[5.535s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[5.535s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[5.535s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[5.535s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+[5.536s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim
+[5.536s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action
+[5.536s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[5.536s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp
+[5.536s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp
+[5.536s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp
+[5.536s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp
+[5.536s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg
+[5.536s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[5.536s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp
+[5.536s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp
+[5.536s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp
+[5.536s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp
+[5.536s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp
+[5.536s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp
+[5.537s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim
+[5.538s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[5.539s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp
+[5.540s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/environment/pythonpath.sh
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/environment/pythonpath.dsv
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info
+[5.541s] -- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO
+[5.541s] -- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt
+[5.541s] -- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt
+[5.541s] -- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.541s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.542s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+[5.567s] Listing '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...
+[5.567s] Listing '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...
+[5.567s] Listing '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...
+[5.567s] Listing '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...
+[5.571s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.571s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.571s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.571s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so
+[5.571s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[5.571s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/msg/Color.idl
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/msg/Pose.idl
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/Kill.idl
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/msg/Color.msg
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/msg/Pose.msg
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/Kill.srv
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+[5.572s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+[5.573s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[5.573s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+[5.573s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+[5.573s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[5.573s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+[5.573s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+[5.573s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/lib/turtlesim/turtlesim_node
+[5.573s] -- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[5.574s] -- Set runtime path of "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""
+[5.574s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/lib/turtlesim/draw_square
+[5.575s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/lib/turtlesim/mimic
+[5.575s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/images
+[5.575s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/images/bouncy.png
+[5.575s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/images/dashing.png
+[5.575s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/images/foxy.png
+[5.575s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/images/rolling.png
+[5.575s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/images/crystal.png
+[5.576s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/images/humble.png
+[5.576s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/images/galactic.png
+[5.576s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/images/ardent.png
+[5.576s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/images/eloquent.png
+[5.576s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/launch
+[5.576s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[5.576s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[5.576s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[5.577s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[5.577s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[5.577s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/environment/path.sh
+[5.577s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/environment/path.dsv
+[5.577s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/local_setup.bash
+[5.577s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/local_setup.sh
+[5.577s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/local_setup.zsh
+[5.577s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/local_setup.dsv
+[5.577s] -- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/package.dsv
+[5.577s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[5.578s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake
+[5.578s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake
+[5.578s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake
+[5.578s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.578s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake
+[5.578s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.578s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.578s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[5.578s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.578s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[5.578s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[5.578s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[5.578s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.578s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[5.579s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[5.579s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake
+[5.579s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake
+[5.579s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[5.579s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.579s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.579s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[5.579s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[5.579s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.579s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.579s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[5.579s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[5.579s] -- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/install/turtlesim/share/turtlesim/package.xml
+[5.584s] Invoked command in '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/build/turtlesim

@@ -1,0 +1,21 @@
+[0.501s] Invoking command in '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/ola_mundo': PYTHONPATH=/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/build/ola_mundo/prefix_override:/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/install/ola_mundo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ola_mundo build --build-base /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/build/ola_mundo/build install --record /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/build/ola_mundo/install.log --single-version-externally-managed install_data
+[0.666s] running egg_info
+[0.666s] writing ../build/ola_mundo/ola_mundo.egg-info/PKG-INFO
+[0.666s] writing dependency_links to ../build/ola_mundo/ola_mundo.egg-info/dependency_links.txt
+[0.666s] writing entry points to ../build/ola_mundo/ola_mundo.egg-info/entry_points.txt
+[0.666s] writing requirements to ../build/ola_mundo/ola_mundo.egg-info/requires.txt
+[0.667s] writing top-level names to ../build/ola_mundo/ola_mundo.egg-info/top_level.txt
+[0.668s] reading manifest file '../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[0.668s] writing manifest file '../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+[0.668s] running build
+[0.669s] running build_py
+[0.669s] running install
+[0.669s] running install_lib
+[0.670s] running install_data
+[0.670s] running install_egg_info
+[0.671s] removing '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/install/ola_mundo/lib/python3.10/site-packages/ola_mundo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.671s] Copying ../build/ola_mundo/ola_mundo.egg-info to /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/install/ola_mundo/lib/python3.10/site-packages/ola_mundo-0.0.0-py3.10.egg-info
+[0.673s] running install_scripts
+[0.690s] Installing ola script to /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/install/ola_mundo/lib/ola_mundo
+[0.698s] writing list of installed files to '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/build/ola_mundo/install.log'
+[0.722s] Invoked command in '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/ola_mundo' returned '0': PYTHONPATH=/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/build/ola_mundo/prefix_override:/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/install/ola_mundo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ola_mundo build --build-base /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/build/ola_mundo/build install --record /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/build/ola_mundo/install.log --single-version-externally-managed install_data

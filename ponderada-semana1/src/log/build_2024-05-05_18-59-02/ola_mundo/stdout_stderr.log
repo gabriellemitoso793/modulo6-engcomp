@@ -1,0 +1,27 @@
+running egg_info
+writing ../build/ola_mundo/ola_mundo.egg-info/PKG-INFO
+writing dependency_links to ../build/ola_mundo/ola_mundo.egg-info/dependency_links.txt
+writing entry points to ../build/ola_mundo/ola_mundo.egg-info/entry_points.txt
+writing requirements to ../build/ola_mundo/ola_mundo.egg-info/requires.txt
+writing top-level names to ../build/ola_mundo/ola_mundo.egg-info/top_level.txt
+reading manifest file '../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+writing manifest file '../build/ola_mundo/ola_mundo.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ola_mundo/ola.py -> /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/build/ola_mundo/build/lib/ola_mundo
+running install
+running install_lib
+copying /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/build/ola_mundo/build/lib/ola_mundo/ola.py -> /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/install/ola_mundo/lib/python3.10/site-packages/ola_mundo
+byte-compiling /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/install/ola_mundo/lib/python3.10/site-packages/ola_mundo/ola.py to ola.cpython-310.pyc
+  File "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/install/ola_mundo/lib/python3.10/site-packages/ola_mundo/ola.py", line 133
+    ``
+    ^
+SyntaxError: invalid syntax
+
+running install_data
+running install_egg_info
+removing '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/install/ola_mundo/lib/python3.10/site-packages/ola_mundo-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/ola_mundo/ola_mundo.egg-info to /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/install/ola_mundo/lib/python3.10/site-packages/ola_mundo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ola script to /home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/install/ola_mundo/lib/ola_mundo
+writing list of installed files to '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana1/src/build/ola_mundo/install.log'

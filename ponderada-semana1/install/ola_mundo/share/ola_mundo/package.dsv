@@ -1,0 +1,6 @@
+source;share/ola_mundo/hook/pythonpath.ps1
+source;share/ola_mundo/hook/pythonpath.dsv
+source;share/ola_mundo/hook/pythonpath.sh
+source;share/ola_mundo/hook/ament_prefix_path.ps1
+source;share/ola_mundo/hook/ament_prefix_path.dsv
+source;share/ola_mundo/hook/ament_prefix_path.sh
