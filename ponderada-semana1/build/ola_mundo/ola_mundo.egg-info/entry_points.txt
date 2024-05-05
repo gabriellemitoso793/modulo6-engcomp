@@ -1,3 +1,0 @@
-[console_scripts]
-ola = ola_mundo.ola:main
-
