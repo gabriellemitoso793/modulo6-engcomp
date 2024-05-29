@@ -1,0 +1,24 @@
+[1.151s] Invoking command in '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/src/turtle_gabi': PYTHONPATH=/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/prefix_override:/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_gabi build --build-base /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build install --record /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/install.log --single-version-externally-managed install_data
+[1.377s] running egg_info
+[1.377s] writing ../../build/turtle_gabi/turtle_gabi.egg-info/PKG-INFO
+[1.378s] writing dependency_links to ../../build/turtle_gabi/turtle_gabi.egg-info/dependency_links.txt
+[1.392s] writing entry points to ../../build/turtle_gabi/turtle_gabi.egg-info/entry_points.txt
+[1.393s] writing requirements to ../../build/turtle_gabi/turtle_gabi.egg-info/requires.txt
+[1.393s] writing top-level names to ../../build/turtle_gabi/turtle_gabi.egg-info/top_level.txt
+[1.395s] reading manifest file '../../build/turtle_gabi/turtle_gabi.egg-info/SOURCES.txt'
+[1.397s] writing manifest file '../../build/turtle_gabi/turtle_gabi.egg-info/SOURCES.txt'
+[1.397s] running build
+[1.397s] running build_py
+[1.397s] copying turtle_gabi/turtle_gabi.py -> /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build/lib/turtle_gabi
+[1.397s] running install
+[1.398s] running install_lib
+[1.399s] copying /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build/lib/turtle_gabi/turtle_gabi.py -> /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages/turtle_gabi
+[1.399s] byte-compiling /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages/turtle_gabi/turtle_gabi.py to turtle_gabi.cpython-310.pyc
+[1.401s] running install_data
+[1.402s] running install_egg_info
+[1.404s] removing '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages/turtle_gabi-0.0.0-py3.10.egg-info' (and everything under it)
+[1.405s] Copying ../../build/turtle_gabi/turtle_gabi.egg-info to /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages/turtle_gabi-0.0.0-py3.10.egg-info
+[1.417s] running install_scripts
+[1.443s] Installing turtle_gabi script to /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/turtle_gabi
+[1.443s] writing list of installed files to '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/install.log'
+[1.469s] Invoked command in '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/src/turtle_gabi' returned '0': PYTHONPATH=/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/prefix_override:/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_gabi build --build-base /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build install --record /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/install.log --single-version-externally-managed install_data

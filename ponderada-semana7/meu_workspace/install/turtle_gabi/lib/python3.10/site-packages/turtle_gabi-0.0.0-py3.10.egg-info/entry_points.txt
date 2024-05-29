@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_gabi = turtle_gabi.turtle_gabi:main
+

@@ -1,0 +1,815 @@
+[0.000000] (-) TimerEvent: {}
+[0.000312] (turtle_gabi) JobQueued: {'identifier': 'turtle_gabi', 'dependencies': OrderedDict()}
+[0.000407] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000421] (turtle_gabi) JobStarted: {'identifier': 'turtle_gabi'}
+[0.005805] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.099718] (-) TimerEvent: {}
+[0.200056] (-) TimerEvent: {}
+[0.205759] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.206043] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim'], 'cwd': '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gabriellemitoso'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gabriellemitoso'), ('OLDPWD', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/src/turtle_gabi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1695'), ('GOROOT', '/usr/local/go'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gabriellemitoso'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gabriellemitoso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/gabriellemitoso/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/gabriellemitoso/go/bin'), ('SESSION_MANAGER', 'local/gabriellemitoso-Latitude-3420:@/tmp/.ICE-unix/1677,unix/gabriellemitoso-Latitude-3420:/tmp/.ICE-unix/1677'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e14cd994_3b80_416e_b99e_29a07a58bd99'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IDERO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.185'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('GOPATH', '/home/gabriellemitoso/go'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtlesim'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.256848] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300246] (-) TimerEvent: {}
+[0.306869] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.312715] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.374159] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.379573] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.379784] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.380099] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.382373] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400365] (-) TimerEvent: {}
+[0.452174] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.457923] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.458140] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.458448] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.460208] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500462] (-) TimerEvent: {}
+[0.576313] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600572] (-) TimerEvent: {}
+[0.643923] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[0.645288] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.671983] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.675632] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.681442] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.691429] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700745] (-) TimerEvent: {}
+[0.704895] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.797065] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.800832] (-) TimerEvent: {}
+[0.838281] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.840285] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900958] (-) TimerEvent: {}
+[0.911621] (turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.932132] (turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.967614] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.974509] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.001101] (-) TimerEvent: {}
+[1.034160] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.034423] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.094930] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.095627] (turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101277] (-) TimerEvent: {}
+[1.186754] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.201363] (-) TimerEvent: {}
+[1.242633] (turtle_gabi) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_gabi', 'build', '--build-base', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build', 'install', '--record', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/src/turtle_gabi', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gabriellemitoso', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/gabriellemitoso', 'OLDPWD': '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/src/turtle_gabi', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '1695', 'GOROOT': '/usr/local/go', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'gabriellemitoso', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gabriellemitoso', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/gabriellemitoso/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/gabriellemitoso/go/bin', 'SESSION_MANAGER': 'local/gabriellemitoso-Latitude-3420:@/tmp/.ICE-unix/1677,unix/gabriellemitoso-Latitude-3420:/tmp/.ICE-unix/1677', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e14cd994_3b80_416e_b99e_29a07a58bd99', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IDERO2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.185', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install/turtlesim:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'GOPATH': '/home/gabriellemitoso/go', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/prefix_override:/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages:/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'ROS_HOSTNAME': 'localhost', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install/turtlesim'}, 'shell': False}
+[1.260258] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.266895] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.301457] (-) TimerEvent: {}
+[1.401702] (-) TimerEvent: {}
+[1.411946] (turtle_gabi) StdoutLine: {'line': b'running egg_info\n'}
+[1.412355] (turtle_gabi) StdoutLine: {'line': b'creating ../../build/turtle_gabi/turtle_gabi.egg-info\n'}
+[1.412467] (turtle_gabi) StdoutLine: {'line': b'writing ../../build/turtle_gabi/turtle_gabi.egg-info/PKG-INFO\n'}
+[1.412614] (turtle_gabi) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_gabi/turtle_gabi.egg-info/dependency_links.txt\n'}
+[1.412705] (turtle_gabi) StdoutLine: {'line': b'writing entry points to ../../build/turtle_gabi/turtle_gabi.egg-info/entry_points.txt\n'}
+[1.412801] (turtle_gabi) StdoutLine: {'line': b'writing requirements to ../../build/turtle_gabi/turtle_gabi.egg-info/requires.txt\n'}
+[1.412877] (turtle_gabi) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_gabi/turtle_gabi.egg-info/top_level.txt\n'}
+[1.412969] (turtle_gabi) StdoutLine: {'line': b"writing manifest file '../../build/turtle_gabi/turtle_gabi.egg-info/SOURCES.txt'\n"}
+[1.414244] (turtle_gabi) StdoutLine: {'line': b"reading manifest file '../../build/turtle_gabi/turtle_gabi.egg-info/SOURCES.txt'\n"}
+[1.414767] (turtle_gabi) StdoutLine: {'line': b"writing manifest file '../../build/turtle_gabi/turtle_gabi.egg-info/SOURCES.txt'\n"}
+[1.414841] (turtle_gabi) StdoutLine: {'line': b'running build\n'}
+[1.414911] (turtle_gabi) StdoutLine: {'line': b'running build_py\n'}
+[1.415005] (turtle_gabi) StdoutLine: {'line': b'creating /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build\n'}
+[1.415118] (turtle_gabi) StdoutLine: {'line': b'creating /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build/lib\n'}
+[1.415189] (turtle_gabi) StdoutLine: {'line': b'creating /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build/lib/turtle_gabi\n'}
+[1.415260] (turtle_gabi) StdoutLine: {'line': b'copying turtle_gabi/__init__.py -> /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build/lib/turtle_gabi\n'}
+[1.415331] (turtle_gabi) StdoutLine: {'line': b'copying turtle_gabi/turtle_gabi.py -> /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build/lib/turtle_gabi\n'}
+[1.415433] (turtle_gabi) StdoutLine: {'line': b'running install\n'}
+[1.415502] (turtle_gabi) StdoutLine: {'line': b'running install_lib\n'}
+[1.416029] (turtle_gabi) StdoutLine: {'line': b'creating /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages/turtle_gabi\n'}
+[1.416101] (turtle_gabi) StdoutLine: {'line': b'copying /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build/lib/turtle_gabi/__init__.py -> /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages/turtle_gabi\n'}
+[1.416171] (turtle_gabi) StdoutLine: {'line': b'copying /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build/lib/turtle_gabi/turtle_gabi.py -> /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages/turtle_gabi\n'}
+[1.416353] (turtle_gabi) StdoutLine: {'line': b'byte-compiling /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages/turtle_gabi/__init__.py to __init__.cpython-310.pyc\n'}
+[1.416489] (turtle_gabi) StdoutLine: {'line': b'byte-compiling /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages/turtle_gabi/turtle_gabi.py to turtle_gabi.cpython-310.pyc\n'}
+[1.417757] (turtle_gabi) StdoutLine: {'line': b'running install_data\n'}
+[1.417933] (turtle_gabi) StdoutLine: {'line': b'creating /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/share/ament_index\n'}
+[1.418076] (turtle_gabi) StdoutLine: {'line': b'creating /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/share/ament_index/resource_index\n'}
+[1.418158] (turtle_gabi) StdoutLine: {'line': b'creating /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/share/ament_index/resource_index/packages\n'}
+[1.418232] (turtle_gabi) StdoutLine: {'line': b'copying resource/turtle_gabi -> /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/share/ament_index/resource_index/packages\n'}
+[1.418304] (turtle_gabi) StdoutLine: {'line': b'copying package.xml -> /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/share/turtle_gabi\n'}
+[1.418393] (turtle_gabi) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.420032] (turtle_gabi) StdoutLine: {'line': b'Copying ../../build/turtle_gabi/turtle_gabi.egg-info to /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages/turtle_gabi-0.0.0-py3.10.egg-info\n'}
+[1.420493] (turtle_gabi) StdoutLine: {'line': b'running install_scripts\n'}
+[1.436501] (turtle_gabi) StdoutLine: {'line': b'Installing turtle_gabi script to /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/turtle_gabi\n'}
+[1.436747] (turtle_gabi) StdoutLine: {'line': b"writing list of installed files to '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/install.log'\n"}
+[1.457213] (turtle_gabi) CommandEnded: {'returncode': 0}
+[1.464189] (turtle_gabi) JobEnded: {'identifier': 'turtle_gabi', 'rc': 0}
+[1.501991] (-) TimerEvent: {}
+[1.507196] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.602107] (-) TimerEvent: {}
+[1.702363] (-) TimerEvent: {}
+[1.735232] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.802462] (-) TimerEvent: {}
+[1.822432] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.838749] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.839931] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.858802] (turtlesim) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.858974] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.859026] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.859068] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.874158] (turtlesim) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.902578] (-) TimerEvent: {}
+[1.910160] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.953696] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[1.956108] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtlesim\n'}
+[1.966879] (turtlesim) CommandEnded: {'returncode': 0}
+[1.967363] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[1.967515] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gabriellemitoso'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gabriellemitoso'), ('OLDPWD', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/src/turtle_gabi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1695'), ('GOROOT', '/usr/local/go'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gabriellemitoso'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gabriellemitoso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/gabriellemitoso/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/gabriellemitoso/go/bin'), ('SESSION_MANAGER', 'local/gabriellemitoso-Latitude-3420:@/tmp/.ICE-unix/1677,unix/gabriellemitoso-Latitude-3420:/tmp/.ICE-unix/1677'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e14cd994_3b80_416e_b99e_29a07a58bd99'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IDERO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.185'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('GOPATH', '/home/gabriellemitoso/go'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtlesim'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[1.998962] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.002681] (-) TimerEvent: {}
+[2.006431] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.012806] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_turtlesim\n'}
+[2.102802] (-) TimerEvent: {}
+[2.203087] (-) TimerEvent: {}
+[2.209317] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[2.209891] (turtlesim) StdoutLine: {'line': b'creating turtlesim.egg-info\n'}
+[2.210150] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[2.210345] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[2.210455] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[2.210670] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[2.212773] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[2.213306] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[2.236885] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[2.303223] (-) TimerEvent: {}
+[2.403523] (-) TimerEvent: {}
+[2.503766] (-) TimerEvent: {}
+[2.604128] (-) TimerEvent: {}
+[2.704436] (-) TimerEvent: {}
+[2.732463] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__cpp\n'}
+[2.744539] (turtlesim) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.746812] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.749606] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.805220] (-) TimerEvent: {}
+[2.905837] (-) TimerEvent: {}
+[2.919572] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[2.921748] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o\x1b[0m\n'}
+[2.922357] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[2.923016] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o\x1b[0m\n'}
+[2.930221] (turtlesim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o\x1b[0m\n'}
+[2.996548] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o\x1b[0m\n'}
+[3.002120] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o\x1b[0m\n'}
+[3.005925] (-) TimerEvent: {}
+[3.025735] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o\x1b[0m\n'}
+[3.106116] (-) TimerEvent: {}
+[3.108575] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[3.146360] (turtlesim) StdoutLine: {'line': b'[ 14%] Built target turtlesim__rosidl_generator_c\n'}
+[3.158500] (turtlesim) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.159339] (turtlesim) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.159774] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.206255] (-) TimerEvent: {}
+[3.306588] (-) TimerEvent: {}
+[3.406902] (-) TimerEvent: {}
+[3.468975] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[3.469240] (turtlesim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.469424] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[3.506998] (-) TimerEvent: {}
+[3.607314] (-) TimerEvent: {}
+[3.707652] (-) TimerEvent: {}
+[3.807990] (-) TimerEvent: {}
+[3.841608] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[3.845719] (turtlesim) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[3.908103] (-) TimerEvent: {}
+[4.000489] (turtlesim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[4.008219] (-) TimerEvent: {}
+[4.080826] (turtlesim) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[4.104575] (turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[4.108328] (-) TimerEvent: {}
+[4.111150] (turtlesim) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[4.213335] (-) TimerEvent: {}
+[4.228930] (turtlesim) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[4.257292] (turtlesim) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[4.275369] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[4.289208] (turtlesim) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[4.300821] (turtlesim) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[4.313449] (-) TimerEvent: {}
+[4.358486] (turtlesim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[4.406374] (turtlesim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[4.413571] (-) TimerEvent: {}
+[4.457412] (turtlesim) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[4.510922] (turtlesim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[4.513692] (-) TimerEvent: {}
+[4.566835] (turtlesim) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[4.571583] (turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.595059] (turtlesim) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[4.613820] (-) TimerEvent: {}
+[4.650821] (turtlesim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[4.659233] (turtlesim) StdoutLine: {'line': b'[ 39%] Built target turtlesim__rosidl_typesupport_c\n'}
+[4.669898] (turtlesim) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[4.671090] (turtlesim) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[4.672722] (turtlesim) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[4.713932] (-) TimerEvent: {}
+[4.719879] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[4.720998] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[4.740759] (turtlesim) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[4.791382] (turtlesim) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o\x1b[0m\n'}
+[4.814056] (-) TimerEvent: {}
+[4.824024] (turtlesim) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[4.900905] (turtlesim) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[4.914264] (-) TimerEvent: {}
+[4.933223] (turtlesim) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[4.943505] (turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[4.992589] (turtlesim) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[5.014371] (-) TimerEvent: {}
+[5.060729] (turtlesim) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.075117] (turtlesim) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[5.114485] (-) TimerEvent: {}
+[5.122897] (turtlesim) StdoutLine: {'line': b'[ 53%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[5.135327] (turtlesim) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o\x1b[0m\n'}
+[5.149504] (turtlesim) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[5.214619] (-) TimerEvent: {}
+[5.273192] (turtlesim) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o\x1b[0m\n'}
+[5.314743] (-) TimerEvent: {}
+[5.320001] (turtlesim) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[5.368331] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[5.414853] (-) TimerEvent: {}
+[5.501505] (turtlesim) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.506429] (turtlesim) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[5.514980] (-) TimerEvent: {}
+[5.572595] (turtlesim) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[5.587510] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[5.601779] (turtlesim) StdoutLine: {'line': b'[ 62%] \x1b[34m\x1b[1mGenerating include/turtlesim/moc_turtle_frame.cpp\x1b[0m\n'}
+[5.615106] (-) TimerEvent: {}
+[5.631914] (turtlesim) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[5.692323] (turtlesim) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o\x1b[0m\n'}
+[5.695500] (turtlesim) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\x1b[0m\n'}
+[5.715229] (-) TimerEvent: {}
+[5.815601] (-) TimerEvent: {}
+[5.853010] (turtlesim) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[5.905772] (turtlesim) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o\x1b[0m\n'}
+[5.915725] (-) TimerEvent: {}
+[5.977376] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.015855] (-) TimerEvent: {}
+[6.116521] (-) TimerEvent: {}
+[6.131772] (turtlesim) StdoutLine: {'line': b'[ 68%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[6.135983] (turtlesim) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[6.140722] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o\x1b[0m\n'}
+[6.166916] (turtlesim) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\x1b[0m\n'}
+[6.177477] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[6.216632] (-) TimerEvent: {}
+[6.224458] (turtlesim) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[6.316744] (-) TimerEvent: {}
+[6.417431] (-) TimerEvent: {}
+[6.449199] (turtlesim) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o\x1b[0m\n'}
+[6.517551] (-) TimerEvent: {}
+[6.618132] (-) TimerEvent: {}
+[6.695897] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[6.718264] (-) TimerEvent: {}
+[6.768090] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.771747] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[6.818381] (-) TimerEvent: {}
+[6.913941] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[6.918485] (-) TimerEvent: {}
+[6.927158] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\x1b[0m\n'}
+[6.967292] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.018611] (-) TimerEvent: {}
+[7.102916] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[7.118734] (-) TimerEvent: {}
+[7.131130] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim\n'}
+[7.163519] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.218847] (-) TimerEvent: {}
+[7.319239] (-) TimerEvent: {}
+[7.419634] (-) TimerEvent: {}
+[7.520037] (-) TimerEvent: {}
+[7.625000] (-) TimerEvent: {}
+[7.725407] (-) TimerEvent: {}
+[7.826887] (-) TimerEvent: {}
+[7.927491] (-) TimerEvent: {}
+[8.028126] (-) TimerEvent: {}
+[8.128803] (-) TimerEvent: {}
+[8.229387] (-) TimerEvent: {}
+[8.329963] (-) TimerEvent: {}
+[8.430524] (-) TimerEvent: {}
+[8.531094] (-) TimerEvent: {}
+[8.631682] (-) TimerEvent: {}
+[8.732241] (-) TimerEvent: {}
+[8.832847] (-) TimerEvent: {}
+[8.933430] (-) TimerEvent: {}
+[9.034012] (-) TimerEvent: {}
+[9.134579] (-) TimerEvent: {}
+[9.235158] (-) TimerEvent: {}
+[9.335769] (-) TimerEvent: {}
+[9.436374] (-) TimerEvent: {}
+[9.536975] (-) TimerEvent: {}
+[9.637586] (-) TimerEvent: {}
+[9.738197] (-) TimerEvent: {}
+[9.838759] (-) TimerEvent: {}
+[9.939340] (-) TimerEvent: {}
+[10.039965] (-) TimerEvent: {}
+[10.140567] (-) TimerEvent: {}
+[10.241155] (-) TimerEvent: {}
+[10.342113] (-) TimerEvent: {}
+[10.345446] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target turtlesim__py\n'}
+[10.374980] (turtlesim) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[10.442226] (-) TimerEvent: {}
+[10.542813] (-) TimerEvent: {}
+[10.592532] (turtlesim) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[10.642938] (-) TimerEvent: {}
+[10.743494] (-) TimerEvent: {}
+[10.752335] (turtlesim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[10.843626] (-) TimerEvent: {}
+[10.915348] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[10.943756] (-) TimerEvent: {}
+[11.044368] (-) TimerEvent: {}
+[11.091786] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[11.146059] (-) TimerEvent: {}
+[11.246639] (-) TimerEvent: {}
+[11.279149] (turtlesim) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[11.346856] (-) TimerEvent: {}
+[11.447436] (-) TimerEvent: {}
+[11.543379] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[11.547607] (-) TimerEvent: {}
+[11.647993] (-) TimerEvent: {}
+[11.748391] (-) TimerEvent: {}
+[11.774889] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[11.848518] (-) TimerEvent: {}
+[11.948983] (-) TimerEvent: {}
+[11.993979] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so\x1b[0m\n'}
+[12.049106] (-) TimerEvent: {}
+[12.056925] (turtlesim) StdoutLine: {'line': b'[ 89%] Built target turtlesim__rosidl_generator_py\n'}
+[12.094982] (turtlesim) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.149281] (-) TimerEvent: {}
+[12.249797] (-) TimerEvent: {}
+[12.328316] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.349933] (-) TimerEvent: {}
+[12.388698] (turtlesim) StdoutLine: {'line': b'[ 91%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.417048] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.422962] (turtlesim) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.450052] (-) TimerEvent: {}
+[12.550455] (-) TimerEvent: {}
+[12.645997] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.650584] (-) TimerEvent: {}
+[12.695523] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.700252] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[12.750724] (-) TimerEvent: {}
+[12.753512] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[12.850835] (-) TimerEvent: {}
+[12.951234] (-) TimerEvent: {}
+[13.051617] (-) TimerEvent: {}
+[13.151990] (-) TimerEvent: {}
+[13.252553] (-) TimerEvent: {}
+[13.353112] (-) TimerEvent: {}
+[13.453663] (-) TimerEvent: {}
+[13.554246] (-) TimerEvent: {}
+[13.654870] (-) TimerEvent: {}
+[13.755491] (-) TimerEvent: {}
+[13.856110] (-) TimerEvent: {}
+[13.956503] (-) TimerEvent: {}
+[14.056903] (-) TimerEvent: {}
+[14.157312] (-) TimerEvent: {}
+[14.257692] (-) TimerEvent: {}
+[14.358043] (-) TimerEvent: {}
+[14.458390] (-) TimerEvent: {}
+[14.558749] (-) TimerEvent: {}
+[14.659108] (-) TimerEvent: {}
+[14.759460] (-) TimerEvent: {}
+[14.859898] (-) TimerEvent: {}
+[14.960598] (-) TimerEvent: {}
+[15.036406] (turtlesim) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[15.060734] (-) TimerEvent: {}
+[15.161210] (-) TimerEvent: {}
+[15.261619] (-) TimerEvent: {}
+[15.305328] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtle_teleop_key\n'}
+[15.361726] (-) TimerEvent: {}
+[15.462074] (-) TimerEvent: {}
+[15.562408] (-) TimerEvent: {}
+[15.662751] (-) TimerEvent: {}
+[15.763103] (-) TimerEvent: {}
+[15.863527] (-) TimerEvent: {}
+[15.963982] (-) TimerEvent: {}
+[16.064664] (-) TimerEvent: {}
+[16.165026] (-) TimerEvent: {}
+[16.265346] (-) TimerEvent: {}
+[16.365677] (-) TimerEvent: {}
+[16.466030] (-) TimerEvent: {}
+[16.566396] (-) TimerEvent: {}
+[16.666741] (-) TimerEvent: {}
+[16.767105] (-) TimerEvent: {}
+[16.867500] (-) TimerEvent: {}
+[16.967858] (-) TimerEvent: {}
+[17.068201] (-) TimerEvent: {}
+[17.168563] (-) TimerEvent: {}
+[17.268921] (-) TimerEvent: {}
+[17.369185] (-) TimerEvent: {}
+[17.469460] (-) TimerEvent: {}
+[17.569763] (-) TimerEvent: {}
+[17.670046] (-) TimerEvent: {}
+[17.770316] (-) TimerEvent: {}
+[17.870548] (-) TimerEvent: {}
+[17.970823] (-) TimerEvent: {}
+[18.071132] (-) TimerEvent: {}
+[18.171436] (-) TimerEvent: {}
+[18.271732] (-) TimerEvent: {}
+[18.809635] (-) TimerEvent: {}
+[19.209989] (-) TimerEvent: {}
+[19.574026] (-) TimerEvent: {}
+[19.674361] (-) TimerEvent: {}
+[19.774780] (-) TimerEvent: {}
+[19.875110] (-) TimerEvent: {}
+[19.975441] (-) TimerEvent: {}
+[20.033609] (turtlesim) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[20.075591] (-) TimerEvent: {}
+[20.133182] (turtlesim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[20.175741] (-) TimerEvent: {}
+[20.276236] (-) TimerEvent: {}
+[20.376765] (-) TimerEvent: {}
+[20.477330] (-) TimerEvent: {}
+[20.577779] (-) TimerEvent: {}
+[20.591008] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target draw_square\n'}
+[20.626984] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target mimic\n'}
+[20.677887] (-) TimerEvent: {}
+[20.778223] (-) TimerEvent: {}
+[20.878550] (-) TimerEvent: {}
+[20.978801] (-) TimerEvent: {}
+[21.079200] (-) TimerEvent: {}
+[21.179559] (-) TimerEvent: {}
+[21.279914] (-) TimerEvent: {}
+[21.380209] (-) TimerEvent: {}
+[21.480500] (-) TimerEvent: {}
+[21.580798] (-) TimerEvent: {}
+[21.681039] (-) TimerEvent: {}
+[21.781269] (-) TimerEvent: {}
+[21.959985] (-) TimerEvent: {}
+[22.060238] (-) TimerEvent: {}
+[22.160569] (-) TimerEvent: {}
+[22.260835] (-) TimerEvent: {}
+[22.920043] (-) TimerEvent: {}
+[23.020405] (-) TimerEvent: {}
+[23.120677] (-) TimerEvent: {}
+[23.221038] (-) TimerEvent: {}
+[23.631438] (-) TimerEvent: {}
+[24.051188] (-) TimerEvent: {}
+[24.231430] (-) TimerEvent: {}
+[24.331664] (-) TimerEvent: {}
+[24.432276] (-) TimerEvent: {}
+[24.532842] (-) TimerEvent: {}
+[24.633198] (-) TimerEvent: {}
+[24.733474] (-) TimerEvent: {}
+[24.806130] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[24.833571] (-) TimerEvent: {}
+[24.933914] (-) TimerEvent: {}
+[25.034326] (-) TimerEvent: {}
+[25.134726] (-) TimerEvent: {}
+[25.235320] (-) TimerEvent: {}
+[25.335976] (-) TimerEvent: {}
+[25.437165] (-) TimerEvent: {}
+[25.537876] (-) TimerEvent: {}
+[25.638531] (-) TimerEvent: {}
+[25.738966] (-) TimerEvent: {}
+[25.839324] (-) TimerEvent: {}
+[25.939700] (-) TimerEvent: {}
+[26.040162] (-) TimerEvent: {}
+[26.140574] (-) TimerEvent: {}
+[26.241096] (-) TimerEvent: {}
+[26.341574] (-) TimerEvent: {}
+[26.442052] (-) TimerEvent: {}
+[26.542448] (-) TimerEvent: {}
+[26.642772] (-) TimerEvent: {}
+[26.743093] (-) TimerEvent: {}
+[26.843398] (-) TimerEvent: {}
+[26.943746] (-) TimerEvent: {}
+[27.044097] (-) TimerEvent: {}
+[27.144453] (-) TimerEvent: {}
+[27.224868] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[27.244564] (-) TimerEvent: {}
+[27.255131] (turtlesim) CommandEnded: {'returncode': 0}
+[27.344645] (-) TimerEvent: {}
+[27.410362] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[27.418311] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtlesim'], 'cwd': '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gabriellemitoso'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gabriellemitoso'), ('OLDPWD', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/src/turtle_gabi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1695'), ('GOROOT', '/usr/local/go'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gabriellemitoso'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gabriellemitoso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/gabriellemitoso/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/gabriellemitoso/go/bin'), ('SESSION_MANAGER', 'local/gabriellemitoso-Latitude-3420:@/tmp/.ICE-unix/1677,unix/gabriellemitoso-Latitude-3420:/tmp/.ICE-unix/1677'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e14cd994_3b80_416e_b99e_29a07a58bd99'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IDERO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.185'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('GOPATH', '/home/gabriellemitoso/go'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtlesim'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[27.425731] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.425914] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[27.426003] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim\n'}
+[27.426063] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[27.426120] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[27.426183] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[27.426330] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[27.426419] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[27.426519] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[27.426781] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[27.426882] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[27.426937] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[27.427003] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[27.427095] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[27.427190] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[27.427279] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[27.427372] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[27.427461] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[27.427553] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[27.427642] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[27.427736] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[27.427821] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[27.427910] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[27.427994] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[27.428057] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[27.428128] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[27.428225] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[27.428327] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[27.428426] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[27.428525] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[27.428614] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[27.428715] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[27.428810] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[27.428908] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[27.429001] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[27.429090] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[27.429204] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[27.429338] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[27.429483] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[27.429570] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[27.429655] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[27.429740] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[27.429851] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[27.429940] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[27.430015] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[27.430084] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[27.430153] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[27.430240] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[27.430327] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[27.430414] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[27.430626] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[27.430740] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[27.430919] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[27.431331] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[27.431407] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim\n'}
+[27.431479] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[27.431521] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[27.431569] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[27.431646] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[27.431687] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[27.431746] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[27.431789] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[27.431846] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[27.431907] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[27.431973] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[27.432028] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[27.432119] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[27.432213] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[27.432292] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[27.432376] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[27.432511] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[27.432897] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[27.433447] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim\n'}
+[27.433675] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[27.433738] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[27.433804] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[27.433880] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[27.433941] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[27.434026] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[27.434140] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[27.434251] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[27.434328] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[27.434417] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[27.434484] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[27.434523] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[27.434565] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[27.434606] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[27.434678] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[27.434756] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[27.434830] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[27.434884] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[27.434953] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[27.435005] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[27.435053] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[27.435108] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[27.435180] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[27.435279] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[27.435377] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[27.435476] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[27.435586] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[27.435682] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[27.435772] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[27.435868] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[27.435967] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[27.436063] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[27.436170] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[27.436262] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[27.436350] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[27.436437] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[27.436522] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[27.436615] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[27.436755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim\n'}
+[27.436819] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[27.436864] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[27.436917] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[27.436974] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.437049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[27.437107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[27.437160] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.437218] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[27.437291] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.437392] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[27.437494] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[27.437571] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[27.437617] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[27.437679] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.437745] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.437852] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.437953] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.438065] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.438222] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[27.438642] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[27.438731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim\n'}
+[27.438804] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[27.438849] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[27.438909] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[27.438953] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[27.439038] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[27.439105] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[27.439169] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[27.439246] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[27.439345] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[27.439443] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[27.439550] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[27.439651] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[27.439723] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[27.439783] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[27.439855] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[27.439996] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[27.440107] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[27.440235] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[27.440363] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[27.440488] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[27.440602] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[27.440717] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[27.440830] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[27.441016] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[27.441787] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[27.441879] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[27.442183] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[27.442250] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim\n'}
+[27.442332] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[27.442394] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[27.442448] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.442510] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[27.442603] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[27.442685] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[27.442733] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.442802] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.442897] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[27.443015] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[27.443121] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[27.443190] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[27.443254] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[27.443332] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.443447] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[27.443576] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.443691] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.443804] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[27.443932] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.444049] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[27.444177] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[27.444301] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.444479] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[27.444698] (-) TimerEvent: {}
+[27.444912] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[27.445002] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[27.445360] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[27.445429] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[27.445558] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[27.445702] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[27.445854] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[27.445963] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[27.446066] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[27.446171] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[27.446316] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[27.446400] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[27.446647] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[27.446855] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[27.446947] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[27.447043] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[27.447186] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[27.447292] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[27.447461] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[27.447664] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.447952] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.448120] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[27.448203] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[27.448311] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[27.448418] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[27.448526] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[27.448644] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[27.448754] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[27.448877] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[27.448988] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[27.449135] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[27.449403] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[27.449534] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[27.449614] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[27.449782] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[27.449911] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[27.450093] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[27.450185] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[27.450286] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[27.450420] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.450535] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[27.499695] (turtlesim) StdoutLine: {'line': b"Listing '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[27.500098] (turtlesim) StdoutLine: {'line': b"Compiling '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...\n"}
+[27.500210] (turtlesim) StdoutLine: {'line': b"Listing '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[27.500298] (turtlesim) StdoutLine: {'line': b"Compiling '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...\n"}
+[27.500383] (turtlesim) StdoutLine: {'line': b"Compiling '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...\n"}
+[27.500464] (turtlesim) StdoutLine: {'line': b"Listing '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[27.500568] (turtlesim) StdoutLine: {'line': b"Compiling '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...\n"}
+[27.500650] (turtlesim) StdoutLine: {'line': b"Compiling '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...\n"}
+[27.500729] (turtlesim) StdoutLine: {'line': b"Compiling '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...\n"}
+[27.500809] (turtlesim) StdoutLine: {'line': b"Listing '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[27.500887] (turtlesim) StdoutLine: {'line': b"Compiling '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...\n"}
+[27.500965] (turtlesim) StdoutLine: {'line': b"Compiling '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...\n"}
+[27.501059] (turtlesim) StdoutLine: {'line': b"Compiling '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...\n"}
+[27.501151] (turtlesim) StdoutLine: {'line': b"Compiling '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...\n"}
+[27.501268] (turtlesim) StdoutLine: {'line': b"Compiling '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...\n"}
+[27.501389] (turtlesim) StdoutLine: {'line': b"Compiling '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...\n"}
+[27.505197] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.505418] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[27.505538] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.505772] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[27.505899] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[27.506127] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[27.506195] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[27.506465] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""\n'}
+[27.506538] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[27.506653] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[27.506730] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[27.506830] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[27.506909] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[27.506990] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[27.507066] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[27.507142] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[27.507219] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[27.507295] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[27.507384] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[27.507482] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[27.507612] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[27.507779] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[27.507889] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[27.507980] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[27.508077] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[27.508169] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[27.508261] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[27.508352] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[27.508443] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[27.508533] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[27.508632] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[27.508709] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[27.508801] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[27.508892] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[27.508968] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[27.515193] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[27.515403] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[27.517123] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[27.517371] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/turtlesim/draw_square\n'}
+[27.520582] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[27.520710] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/turtlesim/mimic\n'}
+[27.523987] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[27.524121] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/images\n'}
+[27.524180] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[27.524270] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[27.524322] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[27.524401] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[27.524476] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[27.524550] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[27.524627] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[27.524692] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[27.524764] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[27.524888] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/launch\n'}
+[27.524965] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[27.525099] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[27.525241] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[27.525390] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[27.525482] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[27.525594] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[27.525700] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[27.525798] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[27.525908] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[27.526016] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[27.526120] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[27.526217] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/package.dsv\n'}
+[27.526359] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[27.526496] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[27.526618] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[27.526738] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[27.526854] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[27.526969] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[27.527091] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[27.527206] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[27.527332] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[27.527452] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[27.527572] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[27.527686] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[27.527806] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[27.527917] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[27.528040] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[27.528149] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[27.528267] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[27.528377] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[27.528492] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[27.528609] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.528726] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.528839] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[27.528960] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[27.529073] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[27.529184] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[27.529298] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[27.529379] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[27.529495] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtlesim/share/turtlesim/package.xml\n'}
+[27.531771] (turtlesim) CommandEnded: {'returncode': 0}
+[27.544889] (-) TimerEvent: {}
+[27.645145] (-) TimerEvent: {}
+[27.705597] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[27.706060] (-) EventReactorShutdown: {}

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/turtle_gabi/turtle_gabi.egg-info
+writing ../../build/turtle_gabi/turtle_gabi.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_gabi/turtle_gabi.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_gabi/turtle_gabi.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_gabi/turtle_gabi.egg-info/requires.txt
+writing top-level names to ../../build/turtle_gabi/turtle_gabi.egg-info/top_level.txt
+writing manifest file '../../build/turtle_gabi/turtle_gabi.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtle_gabi/turtle_gabi.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_gabi/turtle_gabi.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build
+creating /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build/lib
+creating /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build/lib/turtle_gabi
+copying turtle_gabi/__init__.py -> /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build/lib/turtle_gabi
+copying turtle_gabi/turtle_gabi.py -> /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build/lib/turtle_gabi
+running install
+running install_lib
+creating /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages/turtle_gabi
+copying /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build/lib/turtle_gabi/__init__.py -> /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages/turtle_gabi
+copying /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/build/lib/turtle_gabi/turtle_gabi.py -> /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages/turtle_gabi
+byte-compiling /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages/turtle_gabi/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages/turtle_gabi/turtle_gabi.py to turtle_gabi.cpython-310.pyc
+running install_data
+creating /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/share/ament_index
+creating /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/share/ament_index/resource_index
+creating /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/share/ament_index/resource_index/packages
+copying resource/turtle_gabi -> /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/share/ament_index/resource_index/packages
+copying package.xml -> /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/share/turtle_gabi
+running install_egg_info
+Copying ../../build/turtle_gabi/turtle_gabi.egg-info to /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/python3.10/site-packages/turtle_gabi-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_gabi script to /home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/install/turtle_gabi/lib/turtle_gabi
+writing list of installed files to '/home/gabriellemitoso/modulo6-engcomp/ponderada-semana7/meu_workspace/build/turtle_gabi/install.log'
