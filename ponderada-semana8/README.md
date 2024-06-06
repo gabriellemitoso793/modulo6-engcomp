@@ -51,4 +51,4 @@ python3 mlp_pytorch.py
 
 
 ## Demonstração
-Link para o vídeo: 
+Link para o vídeo: https://drive.google.com/file/d/1KCzugfgMYTp_Hi3mcgxGWI5Sjvuf0Erf/view?usp=sharing
