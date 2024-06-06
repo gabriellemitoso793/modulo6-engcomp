@@ -1,11 +1,54 @@
-Neste repositório, você encontrará o estudo de uma porta lógica XOR implementada com uma rede neural, com duas abordagens distintas: uma implementada manualmente e outra utilizando PyTorch.
+# MLP XOR Solver
 
-Para executar a implementação manual da rede neural XOR, use o seguinte comando: python3 main.py
+Este repositório contém duas implementações de um MLP (Multi-Layer Perceptron) para resolver o problema do XOR, uma em Numpy e outra em PyTorch.
 
-Para executar a implementação da rede neural XOR utilizando PyTorch, use o comando: python3 mtp_pytorch.py
+## Objetivo
 
-Então para executar a parte referente ao modelo impolementado sem o uso do pytorch, execute python3 main.py e caso queira executar o modelo que foi utilizado o pytorch execute python3 mtp_pytorch.py
+Implementar um MLP para resolver o problema do XOR.
 
-Obs: Estes comandos foram testados em um ambiente com sistema operacional Linux..
+### Implementações
 
-Para ver o funcionamento, acesse o vídeo neste link: https://drive.google.com/file/d/1I7-mMvUmr1WkBKmSv8CLNLE0NCSks-wv/view?usp=sharing
+1. **mlp_numpy.py**: Implementação do MLP em Numpy.
+2. **mlp_pytorch.py**: Implementação do MLP em PyTorch.
+
+## Requisitos
+
+### Numpy
+
+- Python 3.x
+- Numpy
+
+### PyTorch
+
+- Python 3.x
+- PyTorch
+- PyTorch Lightning
+
+## Instalação
+
+### Numpy
+
+Instale as dependências:
+
+```bash
+pip install numpy
+```
+
+## Como rodar:
+### Numpy
+Para rodar a implementação em Numpy, execute:
+
+```bash
+python3 mlp_numpy.py
+```
+
+### PyTorch
+Para rodar a implementação em PyTorch, execute:
+
+```bash
+python3 mlp_pytorch.py
+```
+
+
+## Demonstração
+Link para o vídeo: 
