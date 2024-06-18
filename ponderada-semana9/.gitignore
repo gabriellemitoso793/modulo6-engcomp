@@ -1,0 +1,4 @@
+uploads/
+models/pesos.weights.h5
+__pycache__/
+*.pyc

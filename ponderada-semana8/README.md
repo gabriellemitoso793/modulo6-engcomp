@@ -49,6 +49,18 @@ Para rodar a implementação em PyTorch, execute:
 python3 mlp_pytorch.py
 ```
 
-
 ## Demonstração
 Link para o vídeo: https://drive.google.com/file/d/1KCzugfgMYTp_Hi3mcgxGWI5Sjvuf0Erf/view?usp=sharing
+
+
+
+
+gabriellemitoso@gabriellemitoso-Latitude-3420:~/teste_prova_modulo6$ python3 -m venv venv
+gabriellemitoso@gabriellemitoso-Latitude-3420:~/teste_prova_modulo6$ venv\Scripts\activate
+venvScriptsactivate: command not found
+gabriellemitoso@gabriellemitoso-Latitude-3420:~/teste_prova_modulo6$ venv\Scripts\activate
+venvScriptsactivate: command not found
+gabriellemitoso@gabriellemitoso-Latitude-3420:~/teste_prova_modulo6$ src venv\Scripts\activate
+Command 'src' not found, but can be installed with:
+sudo apt install simple-revision-control
+gabriellemitoso@gabriellemitoso-Latitude-3420:~/teste_prova_modulo6$ source venv/bin/activate
