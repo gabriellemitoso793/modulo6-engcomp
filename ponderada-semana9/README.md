@@ -7,8 +7,8 @@ Este projeto utiliza uma rede neural convolucional (CNN) para reconhecer algaris
 Clone o repositório e instale as dependências:
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
-cd <NOME_DO_REPOSITORIO>
+git clone https://github.com/gabriellemitoso793/modulo6-engcomp.git
+cd ponderada-semana9
 pip install -r requirements.txt
 ```
 
@@ -28,3 +28,9 @@ Inicie o servidor Flask:
 ```bash
 python app.py
 ```
+
+### Vídeo demonstrativo
+
+Link treinamento do modelo: https://drive.google.com/file/d/1BGwU3-Mj6pHqYM8fCUFTL_FouY7SDael/view?usp=sharing
+
+Link para demonstração na interface: https://drive.google.com/file/d/1kk-m4HhH__SUaqf_3p331CQy0vo1ALv9/view?usp=sharing
